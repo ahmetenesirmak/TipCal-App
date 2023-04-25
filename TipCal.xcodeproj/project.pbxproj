@@ -58,16 +58,48 @@
 		CD2B73CB29F7CC4100B23CC7 /* TipCal */ = {
 			isa = PBXGroup;
 			children = (
-				CD2B73CC29F7CC4100B23CC7 /* AppDelegate.swift */,
-				CD2B73CE29F7CC4100B23CC7 /* SceneDelegate.swift */,
-				CD2B73D029F7CC4100B23CC7 /* CalculatorViewController.swift */,
-				CD2B73E029F7CD7000B23CC7 /* ResultViewController.swift */,
-				CD2B73D229F7CC4100B23CC7 /* Main.storyboard */,
-				CD2B73D529F7CC4200B23CC7 /* Assets.xcassets */,
-				CD2B73D729F7CC4200B23CC7 /* LaunchScreen.storyboard */,
+				CD2B73E329F7FAC200B23CC7 /* View */,
+				CD2B73E429F7FAE000B23CC7 /* Controllers */,
+				CD2B73E529F7FB0C00B23CC7 /* Util */,
+				CD2B73E229F7FAB300B23CC7 /* App */,
 				CD2B73DA29F7CC4200B23CC7 /* Info.plist */,
 			);
 			path = TipCal;
+			sourceTree = "<group>";
+		};
+		CD2B73E229F7FAB300B23CC7 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				CD2B73CE29F7CC4100B23CC7 /* SceneDelegate.swift */,
+				CD2B73CC29F7CC4100B23CC7 /* AppDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		CD2B73E329F7FAC200B23CC7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CD2B73D729F7CC4200B23CC7 /* LaunchScreen.storyboard */,
+				CD2B73D229F7CC4100B23CC7 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CD2B73E429F7FAE000B23CC7 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CD2B73E029F7CD7000B23CC7 /* ResultViewController.swift */,
+				CD2B73D029F7CC4100B23CC7 /* CalculatorViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		CD2B73E529F7FB0C00B23CC7 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				CD2B73D529F7CC4200B23CC7 /* Assets.xcassets */,
+			);
+			path = Util;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
