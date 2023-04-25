@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		CD2B73CD29F7CC4100B23CC7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2B73CC29F7CC4100B23CC7 /* AppDelegate.swift */; };
 		CD2B73CF29F7CC4100B23CC7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2B73CE29F7CC4100B23CC7 /* SceneDelegate.swift */; };
-		CD2B73D129F7CC4100B23CC7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2B73D029F7CC4100B23CC7 /* ViewController.swift */; };
+		CD2B73D129F7CC4100B23CC7 /* CalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2B73D029F7CC4100B23CC7 /* CalculatorViewController.swift */; };
 		CD2B73D429F7CC4100B23CC7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD2B73D229F7CC4100B23CC7 /* Main.storyboard */; };
 		CD2B73D629F7CC4200B23CC7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD2B73D529F7CC4200B23CC7 /* Assets.xcassets */; };
 		CD2B73D929F7CC4200B23CC7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD2B73D729F7CC4200B23CC7 /* LaunchScreen.storyboard */; };
+		CD2B73E129F7CD7000B23CC7 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2B73E029F7CD7000B23CC7 /* ResultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CD2B73C929F7CC4100B23CC7 /* TipCal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TipCal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD2B73CC29F7CC4100B23CC7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CD2B73CE29F7CC4100B23CC7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CD2B73D029F7CC4100B23CC7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CD2B73D029F7CC4100B23CC7 /* CalculatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorViewController.swift; sourceTree = "<group>"; };
 		CD2B73D329F7CC4100B23CC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CD2B73D529F7CC4200B23CC7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CD2B73D829F7CC4200B23CC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CD2B73DA29F7CC4200B23CC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD2B73E029F7CD7000B23CC7 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +60,8 @@
 			children = (
 				CD2B73CC29F7CC4100B23CC7 /* AppDelegate.swift */,
 				CD2B73CE29F7CC4100B23CC7 /* SceneDelegate.swift */,
-				CD2B73D029F7CC4100B23CC7 /* ViewController.swift */,
+				CD2B73D029F7CC4100B23CC7 /* CalculatorViewController.swift */,
+				CD2B73E029F7CD7000B23CC7 /* ResultViewController.swift */,
 				CD2B73D229F7CC4100B23CC7 /* Main.storyboard */,
 				CD2B73D529F7CC4200B23CC7 /* Assets.xcassets */,
 				CD2B73D729F7CC4200B23CC7 /* LaunchScreen.storyboard */,
@@ -138,9 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD2B73D129F7CC4100B23CC7 /* ViewController.swift in Sources */,
+				CD2B73D129F7CC4100B23CC7 /* CalculatorViewController.swift in Sources */,
 				CD2B73CD29F7CC4100B23CC7 /* AppDelegate.swift in Sources */,
 				CD2B73CF29F7CC4100B23CC7 /* SceneDelegate.swift in Sources */,
+				CD2B73E129F7CD7000B23CC7 /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
